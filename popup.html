@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>EcoLens</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header><div class="mark">◉</div><div><h1>EcoLens</h1><p>Look for an existing image first.</p></div><span class="leaf">LOWER IMPACT</span></header>
+  <main>
+    <label for="prompt">Describe the image you need</label>
+    <textarea id="prompt" rows="4" placeholder="Paste or type your image prompt…"></textarea>
+    <div id="privacy" class="privacy neutral"><span class="dot"></span><span>Privacy check runs on this device.</span></div>
+    <div class="row"><button id="search" class="primary" disabled>Find open images <span>↗</span></button><label class="toggle"><input id="compareToggle" type="checkbox"><span class="switch"></span>Compare with generated image</label></div>
+    <div id="compareBox" class="compare hidden"><label for="generatedUrl">Generated image URL</label><div class="urlrow"><input id="generatedUrl" type="url" placeholder="https://…"><button id="compare">Compare</button></div><p>Paste an image URL from your browser tab. EcoLens does not create or store it.</p></div>
+    <div id="status" class="status" aria-live="polite">Searches Openverse for openly licensed results.</div>
+    <section id="results" class="results" aria-live="polite"></section>
+    <footer>Openverse results keep their original license and attribution. Check each source before reuse.</footer>
+  </main>
+  <script src="popup.js"></script>
+</body></html>
