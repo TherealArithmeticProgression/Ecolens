@@ -1,4 +1,9 @@
-# EcoLens MVP
+<a>
+<img href="" alt-text="Eco Lens Logo">
+</a>
+
+# EcoLens 
+
 
 A Manifest V3 browser extension prototype for searching openly licensed images before generating a new image.
 
