@@ -1,6 +1,5 @@
-<a>
-<img href="" alt-text="Eco Lens Logo">
-</a>
+
+![Ecolens Logo](https://github.com/TherealArithmeticProgression/Ecolens/blob/master/0219380b-9c04-4815-a3ac-596a5c762b17.png)
 
 # EcoLens 
 
